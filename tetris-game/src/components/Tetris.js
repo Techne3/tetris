@@ -1,5 +1,7 @@
 import React from "react";
 
+// stopped at 42:12
+
 import Stage from "./Stage";
 import Display from "./Display";
 import StartButton from "./StartButton";
