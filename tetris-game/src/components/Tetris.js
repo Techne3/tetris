@@ -1,5 +1,7 @@
 import React, { useState } from "react";
 
+// 1:33
+
 import { createStage } from "../gameHelpers";
 
 import Stage from "./Stage";
