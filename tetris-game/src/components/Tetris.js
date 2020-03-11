@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 
-// 1:33
+// 1:37
 
 import { createStage } from "../gameHelpers";
 
@@ -64,7 +64,7 @@ function Tetris() {
               <Display text="Level" />
             </div>
           )}
-          <StartButton onClick={startGame} />
+          <StartButton callback={startGame} />
         </aside>
       </StyledTetris>
     </StyledTetrisWrapper>
