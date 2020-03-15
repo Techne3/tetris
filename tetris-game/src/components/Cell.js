@@ -1,9 +1,8 @@
 import React from "react";
-import { StyledCell } from "./styles/StyledCell";
-import { TETROMINOS } from "../tetrominos";
+import { StyledDisplay } from "./styles/StyledDisplay";
 
-const Cell = ({ type }) => (
-  <StyledCell type={type} color={TETROMINOS[type].color} />
+const Display = ({ gameOver, text }) => (
+  <StyledDisplay gameOver={gameOver}>{text}</StyledDisplay>
 );
 
-export default Cell;
+export default Display;
